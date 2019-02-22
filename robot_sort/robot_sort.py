@@ -113,7 +113,7 @@ class SortingRobot:
                 print(f"position {self._position}")
                 if self.compare_item() == None:
                     self.swap_item()
-                    # break
+                    break
             self.move_right()
 
         return self._list
